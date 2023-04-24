@@ -125,23 +125,18 @@ function HeaderOne() {
                 <nav>
                   <div className="logo">
                     <Link to="/">
-                      {/* <img src="assets/img/logo/logo.png" alt="Logo" /> */}
+                      <img style={{height:70,padding:4}} src="https://icecube-eu-829.icedrive.io/download?p=TZKrzhXJb_pSXfJYPeHlxHLyzE6rLqiDA17Kq1bJfbdT8WMLM.iGjJR1BsVmiWl1T7Emo2OaGuvArU4zFW0db2aDNt7Xu4yrTBAAZoQ4Qw0raQG0PYKEvJ31qfYwkHYxgo6lKtMxCTOElacVFFZxYRL7QN5hbkpQN9LN72yE8C_m9pfTzXqRRKmtc13tindidaSHpNAhYINGfAY82SswEV2BFBUpcXpltApSAzzZTopJdb.LQ8MVf7OGN40kjGYYb4aMhvrdvvauOL7vnfe5hA--" alt="Logo" />
                     </Link>
                   </div>
 
                   <div className="navbar-wrap push-menu d-none d-lg-flex">
                     <ul className="navigation">
+                      <li className=" menu-item-has-children product-thumb">
+                      <img s src="../../assets/img/logo.jpeg" alt="" />
+                      </li>
                       <li className=" menu-item-has-children">
                         <NavLink to="/">Home</NavLink>
-                        {/* <ul className="submenu ">
-                              <li ><Link to="/">Home One</Link></li>
-                              <li><Link to="/">Home Two</Link></li>
-                              <li><Link to="/index-3">Home Three</Link></li>
-                              <li ><Link to="/index-4">Home Four</Link></li>
-                              <li><Link to="/index-5">Home Five</Link></li>
-                              <li><Link to="/index-6">Home Six</Link></li>
-                              <li><Link to="/index-7">Home Seven</Link></li>
-                          </ul> */}
+                        
                       </li>
                       {/* <li className=" menu-item-has-children"><NavLink to="/about-us" >Pages</NavLink>
                           <ul className="submenu">
